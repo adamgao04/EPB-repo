@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500;700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #24272e;
+}
+
+header {
+    background: #E2584D;
+    padding: 20px;
+}
+
+header > h1{
+    color:white;
+    text-align: center;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.backbtn{
+    width: 10%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.backbtn:hover{
+    cursor: pointer;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+/* first kind of text before making the page include settings */
+
+.text {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+
+
+.gamerules {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#rock{
+    position:relative;
+    top: 25px;
+}
+
+.input{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.settings{
+  position: relative;
+  top: 30px;
+  padding: 20px;
+  color:#24272e;
+  text-align: center;
+  font-family: Asap, sans-serif;
+  height: 25px;
+  width: 8%;
+  margin: auto;
+  border: 5px solid #E2584D;
+  background: #E2584D;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.settings:hover{
+  cursor: pointer;
+  background: #cc362b;
+  border: 5px solid #cc362b;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#settings_text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.takeaway{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.choice{
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #E2584D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 0 15px;
+}
+
+.choice:hover {
+    background-color: #cc362b;
+}
+
+.choice:active {
+  background-color: #E2584D;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

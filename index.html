@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Epic pebble battle</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="index.js" defer></script>
+    <header>
+        <h1>
+        EPIC PEBBLE BATTLE
+        </h1>
+    </header>
+
+    <div class="text">
+        <p>
+            Select Gamemode!
+        </p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="local">
+            <img src="images/friends.png">
+            <div class="badge" id="local_play">
+                <p>Battle a friend</p>
+            </div>
+        </div>
+        <div class="choice" id="bot">
+            <img src="images/ai.png"/>
+            <div class="badge" id="against_bot">
+                <p>Battle a bot</p>
+            </div>
+        </div>
+    <div class="settings" onclick= "openPage('gamerules.html')" id="set">
+        <p id="settings_text">
+            Game rules
+        </p>
+    </div>
+  </body>
+</html>

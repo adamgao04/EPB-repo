@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="bot.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="bot.js" defer></script>
+    <header>
+      <h1 class="backbtn" onclick='openPage("index.html")'>
+      Against bot
+      </h1>
+  </header>
+
+
+    <div class="text" id = "gamesettings">
+      <p>
+        Game settings
+      </p>
+    </div>
+    
+    <div class="input">
+      <label for="n_Pebbles">Number of pebbles:</label>
+      <input type="number" id="n_Pebbles" name="quantity" min="1" max="500" value = "30">
+    </div>
+
+    <div class="input">
+      <label>Pebbles to take:</label>
+      <input type="number" id="moves1" name="moves1" min="1" max="1" value=1>
+      <input type="number" id="moves2" name="moves2" min="1" max="500" value=2>
+      <input type="number" id="moves3" name="moves3" min="1" max="500" value=3>
+    </div>
+
+    <div class="text">
+      <p>
+          Bot settings
+      </p>
+    </div>
+
+    <div class="input">
+      <label for="diff">Bot difficulty:</label>
+      <input type="range" id="diff" name="diff" min="0" max="100" value = 50>
+    </div>
+
+    <button class="settings"  id="set" onclick="setclick()">
+      <a href = "#scroll" style="text-decoration:none ;color:white">
+        Save and play!
+        <a>
+        </button>
+
+    <div class="text">
+      <span id="player-name"> </span> 
+    </div>
+      
+    <div class="text" id = "scroll">
+       <p>
+        <span id="pebbles"></span> X
+        <img id="rock" src="images/icons8-mediator-100.png">
+      </p>
+    </div>
+      
+    <div class="takeaway">
+      <div class="choice" id="choice1btn">
+        <span id="choice1"></span>
+      </div>
+      <div class="choice" id="choice2btn">
+        <span id="choice2"></span>
+      </div>
+      <div class="choice" id="choice3btn">
+        <span id="choice3"></span>
+      </div>
+    </div>
+    
+  </body>
+</html>
